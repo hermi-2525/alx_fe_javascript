@@ -28,6 +28,12 @@
   <button onclick="exportToJsonFile()">Export Quotes</button>
   <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
 
+  <!-- 🔄 Sync With Server -->
+  <button onclick="syncWithServer()">Sync with Server</button>
+
+  <!-- 🛎 Notification Message -->
+  <div id="notification" style="color: green; margin-top: 10px;"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
